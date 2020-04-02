@@ -1,0 +1,8 @@
+query Settings {
+  affirmSettings @context(provider: "vtex.affirm-payment"){
+    isLive
+    enableKatapult
+    companyName
+    publicApiKey
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "affirm-components",
+  "vendor": "vtex",
+  "version": "0.0.1",
+  "title": "Affirm Components",
+  "description": "Frontend components related to Affirm payment method",
+  "categories": [],
+  "registries": [
+    "smartcheckout"
+  ],
+  "builders": {
+    "react": "3.x",
+    "store": "0.x",
+    "docs": "0.x"
+  },
+  "mustUpdateAt": "2018-09-05",
+  "scripts": {
+    "postreleasy": "vtex publish --verbose"
+  },
+  "dependencies": {
+    "vtex.store": "2.x",
+    "vtex.product-teaser-interfaces": "1.x",
+    "vtex.product-context": "0.x",
+    "vtex.product-summary-context": "0.x",
+    "vtex.affirm-payment": "1.x"
+  },
+  "policies": [
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "{{account}}.vtexcommercestable.com.br",
+        "path": "/*"
+      }
+    }
+  ],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

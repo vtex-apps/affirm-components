@@ -1,0 +1,8 @@
+{
+  "product-teaser.product.affirm": {
+    "component": "AffirmPromo"
+  },
+  "product-teaser.summary.affirm": {
+    "component": "AffirmSummaryPromo"
+  }
+}
