@@ -1,6 +1,6 @@
 📢 Use this project, [contribute](https://github.com/vtex-apps/affirm-components) to it or open issues to help evolve it using [Store Discussion](https://github.com/vtex-apps/store-discussion).
 
-## Description
+# Affirm Components
 
 This app provides promotional messaging components related to the Affirm payment method.
 
