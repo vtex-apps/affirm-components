@@ -22,7 +22,7 @@
     "vtex.product-teaser-interfaces": "1.x",
     "vtex.product-context": "0.x",
     "vtex.product-summary-context": "0.x",
-    "vtex.affirm-payment": "1.x"
+    "vtex.affirm-payment": "2.x"
   },
   "policies": [
     {
