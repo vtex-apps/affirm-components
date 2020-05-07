@@ -1,7 +1,7 @@
 {
   "name": "affirm-components",
   "vendor": "vtex",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "title": "Affirm Components",
   "description": "Frontend components related to Affirm payment method",
   "categories": [],
