@@ -26,16 +26,11 @@
     "@types/ramda": "^0.27.0",
     "@types/react": "^16.8.8",
     "@types/react-dom": "^16.8.3",
-    "eslint": "5.15.1",
-    "eslint-config-vtex": "10.1.0",
-    "eslint-config-vtex-react": "4.1.0",
-    "prettier": "^2.0.2",
-    "tslint": "^5.12.1",
-    "tslint-config-vtex": "^2.1.0",
-    "typescript": "3.8.3",
+    "vtex.affirm-payment": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.affirm-payment@2.0.4/public/@types/vtex.affirm-payment",
     "vtex.product-context": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-context@0.7.1/public/@types/vtex.product-context",
     "vtex.product-summary-context": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-summary-context@0.3.0/public/@types/vtex.product-summary-context",
-    "vtex.render-runtime": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.98.1/public/@types/vtex.render-runtime",
-    "vtex.store": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store@2.93.3/public/@types/vtex.store"
+    "vtex.product-teaser-interfaces": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-teaser-interfaces@1.0.2/public/_types/react",
+    "vtex.render-runtime": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.100.2/public/@types/vtex.render-runtime",
+    "vtex.store": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store@2.95.5/public/@types/vtex.store"
   }
 }
