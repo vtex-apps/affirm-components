@@ -28,16 +28,23 @@ const AffirmPromoDiv: StorefrontFunctionComponent<AffirmPromoProps> = ({
     'affirm'
   )
 
+  const { product, selectedItem } = useProduct()
+
   useEffect(() => {
     if (!affirm || error || !publicApiKey || window._affirm_config) return
 
     window._affirm_config = {
       public_api_key: publicApiKey,
     }
+
     affirm.ui.refresh()
   }, [affirm, error, publicApiKey])
 
-  const { product, selectedItem } = useProduct()
+  useEffect(() => {
+    if (!affirm || error || !publicApiKey) return
+
+    affirm.ui.refresh()
+  }, [selectedItem])
 
   if (!product || !selectedItem || !affirm || error || !publicApiKey) {
     return null
