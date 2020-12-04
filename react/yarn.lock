@@ -330,29 +330,29 @@ tslib@^1.9.3:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.10.0.tgz#c3c19f95973fb0a62973fb09d90d961ee43e5c8a"
   integrity sha512-qOebF53frne81cf0S9B41ByenJ3/IuH8yJKngAX35CmiZySA0khhkovshKK+jGCaMnVomla7gVlIcc3EvKPbTQ==
 
-"vtex.affirm-payment@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.affirm-payment@2.0.4/public/@types/vtex.affirm-payment":
-  version "2.0.4"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.affirm-payment@2.0.4/public/@types/vtex.affirm-payment#ec1a85238087556ddef22fa6e41c60f7fbc8bb25"
+"vtex.affirm-payment@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.affirm-payment@2.1.4/public/@types/vtex.affirm-payment":
+  version "2.1.4"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.affirm-payment@2.1.4/public/@types/vtex.affirm-payment#d2f261842035d7d35036f1abee01c30dca470f38"
 
-"vtex.product-context@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-context@0.7.1/public/@types/vtex.product-context":
-  version "0.7.1"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-context@0.7.1/public/@types/vtex.product-context#2476a5831bdd066e4ce99e0a004480b0ee445007"
+"vtex.product-context@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-context@0.9.4/public/@types/vtex.product-context":
+  version "0.9.4"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-context@0.9.4/public/@types/vtex.product-context#79787ead4c300a2f9a3fe601f52567993e3e05d1"
 
-"vtex.product-summary-context@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-summary-context@0.3.0/public/@types/vtex.product-summary-context":
-  version "0.3.0"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-summary-context@0.3.0/public/@types/vtex.product-summary-context#53c708bb56a969432168801b4ff991758b9f0e29"
+"vtex.product-summary-context@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-summary-context@0.6.0/public/@types/vtex.product-summary-context":
+  version "0.6.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-summary-context@0.6.0/public/@types/vtex.product-summary-context#653154fe985a37b0e030b7b729f77a7ca33c02c4"
 
 "vtex.product-teaser-interfaces@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-teaser-interfaces@1.0.2/public/_types/react":
   version "1.0.2"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-teaser-interfaces@1.0.2/public/_types/react#6b300916852675e4a0686b82b07b318982abf110"
 
-"vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.100.2/public/@types/vtex.render-runtime":
-  version "8.100.2"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.100.2/public/@types/vtex.render-runtime#c26ce9e296e118784e55707e236cf4bda25e1b29"
+"vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.126.3/public/@types/vtex.render-runtime":
+  version "8.126.3"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.126.3/public/@types/vtex.render-runtime#ae20f3b7ca9c4e2b424e1fa7759f7212bf28d644"
 
-"vtex.store@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store@2.95.5/public/@types/vtex.store":
-  version "2.95.5"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store@2.95.5/public/@types/vtex.store#70c2cad82c4653015dd5d1a1c9ceede4a21308b8"
+"vtex.store@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store@2.109.3/public/@types/vtex.store":
+  version "2.109.3"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store@2.109.3/public/@types/vtex.store#23d53782fc1cae6c5cb44000e84372da0bee65b9"
 
 zen-observable-ts@^0.8.19:
   version "0.8.19"
