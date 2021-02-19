@@ -7,7 +7,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Fixed
+
+- Do not delete `window.affirm` as `affirm.js` depends on it to work correctly
+
 ## [0.0.3] - 2020-12-04
+
+### Changed
+
+- Refresh Affirm UI on PDP if selected SKU changes
 
 ## [0.0.2] - 2020-05-07
 
