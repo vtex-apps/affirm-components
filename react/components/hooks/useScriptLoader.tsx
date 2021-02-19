@@ -17,7 +17,6 @@ const useScriptLoader = <T extends object = any>(
 
     script.onload = () => {
       setX((window as any)[libName])
-      delete (window as any)[libName]
       document.body.removeChild(script)
     }
 
