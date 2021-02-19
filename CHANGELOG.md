@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.0.4] - 2021-02-19
+
 ### Fixed
 
 - Do not delete `window.affirm` as `affirm.js` depends on it to work correctly
