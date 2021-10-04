@@ -1,0 +1,14 @@
+
+{
+  "name": "Affirm",
+  "headline": "Permita que sus clientes paguen en cuotas con Affirm.",
+  "overview": "Affirm es una forma sencilla y transparente de que los clientes paguen sus compras en cuotas. Al utilizar Affirm, puede mostrar un precio de pago mensual para cada ítem, mostrando a sus clientes un plan de pago de su elección y que se ajuste a su presupuesto. Conecte esta aplicación a su tienda VTEX y podrá ofrecer a sus clientes una forma alternativa de pagar en cuotas.",
+  "features": [
+   "Muestre opciones de financiación para los clientes en la página del producto",
+   "Permita que sus clientes paguen a través del método de pago Affirm"
+  ],
+  "websiteURL": "https://vtex.com/",
+  "support": {
+    "url": "https://help-tickets.vtex.com/en/support?app=vtex.affirm-payment"
+  }
+}
