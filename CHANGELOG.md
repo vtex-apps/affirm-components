@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+
+- Quality Engineering Actions (SonarCloud and Lint)
+
 ## [0.0.5] - 2021-10-04
 
 ### Added
