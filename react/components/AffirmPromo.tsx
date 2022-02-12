@@ -6,6 +6,7 @@ import { useQuery } from 'react-apollo'
 
 import useScriptLoader from './hooks/useScriptLoader'
 import Settings from '../graphql/Settings.graphql'
+import { useCssHandles } from 'vtex.css-handles'
 
 interface AffirmPromoProps {
   affirmSettings: AffirmSettings
@@ -15,6 +16,8 @@ interface AffirmSettings {
   publicApiKey: string
   isLive: boolean
 }
+
+const CSS_HANDLES = ['affirmPromoAsLowAs'] as const
 
 const AffirmPromoDiv: StorefrontFunctionComponent<AffirmPromoProps> = ({
   affirmSettings,
@@ -29,6 +32,7 @@ const AffirmPromoDiv: StorefrontFunctionComponent<AffirmPromoProps> = ({
   )
 
   const { product, selectedItem } = useProduct()
+  const handles = useCssHandles(CSS_HANDLES)
 
   useEffect(() => {
     if (!affirm || error || !publicApiKey || window._affirm_config) return
@@ -54,7 +58,7 @@ const AffirmPromoDiv: StorefrontFunctionComponent<AffirmPromoProps> = ({
 
   return (
     <p
-      className="affirm-as-low-as"
+      className={`affirm-as-low-as ${handles.affirmPromoAsLowAs}`}
       data-page-type="product"
       data-amount={price * 100}
     ></p>

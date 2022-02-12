@@ -14,3 +14,11 @@ The available blocks are:
 
 - `"product-teaser.product.affirm"`: This block should be placed on the product page (PDP). It displays a promotional message such as `As low as \$\__/mo at _% APR` followed by a `Prequalify now` or `Learn More` link.
 - `"product-teaser.summary.affirm"`: Similar to the above but designed to be placed on product shelves.
+
+## Customization
+
+In order to apply CSS customizations to this and other blocks, follow the instructions given in the recipe on [Using CSS Handles for store customization](https://vtex.io/docs/recipes/style/using-css-handles-for-store-customization).
+
+| CSS Handles     |
+|-----------------|
+| `affirmAsLowAs` |

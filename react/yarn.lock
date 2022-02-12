@@ -334,6 +334,10 @@ tslib@^1.9.3:
   version "2.1.4"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.affirm-payment@2.1.4/public/@types/vtex.affirm-payment#d2f261842035d7d35036f1abee01c30dca470f38"
 
+"vtex.css-handles@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.4/public/@types/vtex.css-handles":
+  version "0.4.4"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.4/public/@types/vtex.css-handles#8c45c6decf9acd2b944e07261686decff93d6422"
+
 "vtex.product-context@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-context@0.9.4/public/@types/vtex.product-context":
   version "0.9.4"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-context@0.9.4/public/@types/vtex.product-context#79787ead4c300a2f9a3fe601f52567993e3e05d1"
