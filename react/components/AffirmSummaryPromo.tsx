@@ -1,13 +1,12 @@
 /* eslint-disable @typescript-eslint/camelcase */
 import { useProductSummary } from 'vtex.product-summary-context/ProductSummaryContext'
-
 import React, { useEffect } from 'react'
 import { useQuery } from 'react-apollo'
 import { path, prop } from 'ramda'
+import { useCssHandles } from 'vtex.css-handles'
 
 import useScriptLoader from './hooks/useScriptLoader'
 import Settings from '../graphql/Settings.graphql'
-import { useCssHandles } from 'vtex.css-handles'
 
 interface AffirmPromoProps {
   affirmSettings: AffirmSettings
