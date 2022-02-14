@@ -16,7 +16,7 @@ interface AffirmSettings {
   isLive: boolean
 }
 
-const CSS_HANDLES = ['affirmSummaryPromo'] as const
+const CSS_HANDLES = ['affirmPromo'] as const
 
 const AffirmPromoDiv: StorefrontFunctionComponent<AffirmPromoProps> = ({
   affirmSettings,
@@ -57,7 +57,7 @@ const AffirmPromoDiv: StorefrontFunctionComponent<AffirmPromoProps> = ({
 
   return (
     <p
-      className={`affirm-as-low-as ${handles.affirmSummaryPromo}`}
+      className={`affirm-as-low-as ${handles.affirmPromo}`}
       data-page-type="product"
       data-amount={price * 100}
     ></p>
