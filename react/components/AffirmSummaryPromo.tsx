@@ -1,9 +1,9 @@
 /* eslint-disable @typescript-eslint/camelcase */
 import { useProductSummary } from 'vtex.product-summary-context/ProductSummaryContext'
-
 import React, { useEffect } from 'react'
 import { useQuery } from 'react-apollo'
 import { path, prop } from 'ramda'
+import { useCssHandles } from 'vtex.css-handles'
 
 import useScriptLoader from './hooks/useScriptLoader'
 import Settings from '../graphql/Settings.graphql'
@@ -16,6 +16,8 @@ interface AffirmSettings {
   publicApiKey: string
   isLive: boolean
 }
+
+const CSS_HANDLES = ['affirmPromoSummary'] as const
 
 const AffirmSummaryPromoDiv: StorefrontFunctionComponent<AffirmPromoProps> = ({
   affirmSettings,
@@ -38,6 +40,7 @@ const AffirmSummaryPromoDiv: StorefrontFunctionComponent<AffirmPromoProps> = ({
     affirm.ui.refresh()
   }, [affirm, error, publicApiKey])
 
+  const handles = useCssHandles(CSS_HANDLES)
   const { product, isLoading } = useProductSummary()
   const commertialOffer = path<any>(
     ['sku', 'seller', 'commertialOffer'],
@@ -58,7 +61,7 @@ const AffirmSummaryPromoDiv: StorefrontFunctionComponent<AffirmPromoProps> = ({
 
   return (
     <p
-      className="affirm-as-low-as"
+      className={`affirm-as-low-as ${handles.affirmPromoSummary}`}
       data-page-type="category"
       data-amount={price * 100}
     ></p>

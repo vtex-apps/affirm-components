@@ -330,29 +330,37 @@ tslib@^1.9.3:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.10.0.tgz#c3c19f95973fb0a62973fb09d90d961ee43e5c8a"
   integrity sha512-qOebF53frne81cf0S9B41ByenJ3/IuH8yJKngAX35CmiZySA0khhkovshKK+jGCaMnVomla7gVlIcc3EvKPbTQ==
 
-"vtex.affirm-payment@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.affirm-payment@2.1.4/public/@types/vtex.affirm-payment":
-  version "2.1.4"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.affirm-payment@2.1.4/public/@types/vtex.affirm-payment#d2f261842035d7d35036f1abee01c30dca470f38"
+"vtex.affirm-components@https://betocheckout--sandboxusdev.myvtex.com/_v/private/typings/linked/v1/vtex.affirm-components@0.0.5+build1644630177/public/@types/vtex.affirm-components":
+  version "0.0.5"
+  resolved "https://betocheckout--sandboxusdev.myvtex.com/_v/private/typings/linked/v1/vtex.affirm-components@0.0.5+build1644630177/public/@types/vtex.affirm-components#216e2d4e8d56f2ca1d3814b4414fa3374f3659b1"
 
-"vtex.product-context@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-context@0.9.4/public/@types/vtex.product-context":
-  version "0.9.4"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-context@0.9.4/public/@types/vtex.product-context#79787ead4c300a2f9a3fe601f52567993e3e05d1"
+"vtex.affirm-payment@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.affirm-payment@2.1.8-beta.0/public/@types/vtex.affirm-payment":
+  version "2.1.8-beta.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.affirm-payment@2.1.8-beta.0/public/@types/vtex.affirm-payment#f0023829b35c66293c900b47323012313034f17b"
 
-"vtex.product-summary-context@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-summary-context@0.6.0/public/@types/vtex.product-summary-context":
-  version "0.6.0"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-summary-context@0.6.0/public/@types/vtex.product-summary-context#653154fe985a37b0e030b7b729f77a7ca33c02c4"
+"vtex.css-handles@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.4/public/@types/vtex.css-handles":
+  version "0.4.4"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.4/public/@types/vtex.css-handles#8c45c6decf9acd2b944e07261686decff93d6422"
+
+"vtex.product-context@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-context@0.10.0/public/@types/vtex.product-context":
+  version "0.10.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-context@0.10.0/public/@types/vtex.product-context#c5e2a97b404004681ee12f4fff7e6b62157786cc"
+
+"vtex.product-summary-context@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-summary-context@0.9.0/public/@types/vtex.product-summary-context":
+  version "0.9.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-summary-context@0.9.0/public/@types/vtex.product-summary-context#44c411f37e19c220921ec5af640900b6f95c1d06"
 
 "vtex.product-teaser-interfaces@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-teaser-interfaces@1.0.2/public/_types/react":
   version "1.0.2"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-teaser-interfaces@1.0.2/public/_types/react#6b300916852675e4a0686b82b07b318982abf110"
 
-"vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.126.3/public/@types/vtex.render-runtime":
-  version "8.126.3"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.126.3/public/@types/vtex.render-runtime#ae20f3b7ca9c4e2b424e1fa7759f7212bf28d644"
+"vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.132.3/public/@types/vtex.render-runtime":
+  version "8.132.3"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.132.3/public/@types/vtex.render-runtime#c7dd142e384f38bd7a7c841543b73e9349fadc93"
 
-"vtex.store@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store@2.109.3/public/@types/vtex.store":
-  version "2.109.3"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store@2.109.3/public/@types/vtex.store#23d53782fc1cae6c5cb44000e84372da0bee65b9"
+"vtex.store@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store@2.122.0/public/@types/vtex.store":
+  version "2.122.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store@2.122.0/public/@types/vtex.store#6bf27ad5449fe14926287432fc12bdaf27a86b03"
 
 zen-observable-ts@^0.8.19:
   version "0.8.19"
