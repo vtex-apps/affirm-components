@@ -3,7 +3,7 @@
   "version": "0.0.6",
   "description": "",
   "scripts": {
-    "test": "vtex-scripts test"
+    "test": "echo \"Tests not developed yet\" && exit 0"
   },
   "author": "VTEX",
   "license": "UNLICENSED",
