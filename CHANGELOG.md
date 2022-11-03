@@ -10,6 +10,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Fixed
 - Bump versions to fix security vulnerabilities
 
+### Updated
+- The reusable workflow and cy-runner were update to v2
+
 ## [0.0.6] - 2022-02-14
 
 ### Added
