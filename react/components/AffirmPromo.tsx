@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/camelcase */
 import useProduct from 'vtex.product-context/useProduct'
 import React, { useEffect } from 'react'
 import { useQuery } from 'react-apollo'
