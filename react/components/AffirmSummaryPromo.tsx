@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/camelcase */
 import { useProductSummary } from 'vtex.product-summary-context/ProductSummaryContext'
 import React, { useEffect } from 'react'
 import { useQuery } from 'react-apollo'
