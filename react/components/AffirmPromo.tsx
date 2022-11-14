@@ -27,7 +27,7 @@ const AffirmPromoDiv: StorefrontFunctionComponent<AffirmPromoProps> = ({
       ? 'https://cdn1.affirm.com/js/v2/affirm.js'
       : 'https://cdn1-sandbox.affirm.com/js/v2/affirm.js',
     'affirm'
-  )  
+  )
   const productContext = useProduct()
   const product = productContext?.product
   const selectedItem = productContext?.selectedItem
