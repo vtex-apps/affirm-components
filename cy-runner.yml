@@ -35,7 +35,7 @@ base:
     maxJobs: 2
     quiet: true
     projectId: yys8fo
-    video: false
+    video: true
     videoCompression: false
     videoUploadOnPasses: false
     screenshotOnRunFailure: true
