@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Fixed
+
+- Fix the AffirmPromo Icon not showing at some cases
+
 ## [0.0.7] - 2022-11-04
 
 ### Fixed

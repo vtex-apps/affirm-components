@@ -33,7 +33,7 @@ const AffirmPromoDiv: StorefrontFunctionComponent<AffirmPromoProps> = ({
   const handles = useCssHandles(CSS_HANDLES)
 
   useEffect(() => {
-    if (!affirm || error || !publicApiKey || window._affirm_config) return
+    if (!affirm || error || !publicApiKey) return
 
     window._affirm_config = {
       public_api_key: publicApiKey,
