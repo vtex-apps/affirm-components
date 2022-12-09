@@ -49,7 +49,7 @@ const AffirmPromoDiv: StorefrontFunctionComponent<AffirmPromoProps> = ({
     if (!affirm || error || !publicApiKey) return
 
     affirm.ui.refresh()
-  }, [selectedItem])
+  }, [selectedItem, selectedQty])
 
   if (!product || !selectedItem || !affirm || error || !publicApiKey) {
     return null
