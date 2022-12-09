@@ -1,4 +1,4 @@
-import useProduct from 'vtex.product-context/useProduct'
+import { useProduct } from 'vtex.product-context'
 import React, { useEffect } from 'react'
 import { useQuery } from 'react-apollo'
 import { useCssHandles } from 'vtex.css-handles'
@@ -28,8 +28,11 @@ const AffirmPromoDiv: StorefrontFunctionComponent<AffirmPromoProps> = ({
       : 'https://cdn1-sandbox.affirm.com/js/v2/affirm.js',
     'affirm'
   )
+  const productContext = useProduct()
+  const product = productContext?.product
+  const selectedItem = productContext?.selectedItem
+  const selectedQty = productContext?.selectedQuantity ?? 1
 
-  const { product, selectedItem } = useProduct()
   const handles = useCssHandles(CSS_HANDLES)
 
   useEffect(() => {
@@ -46,7 +49,7 @@ const AffirmPromoDiv: StorefrontFunctionComponent<AffirmPromoProps> = ({
     if (!affirm || error || !publicApiKey) return
 
     affirm.ui.refresh()
-  }, [selectedItem])
+  }, [selectedItem, selectedQty])
 
   if (!product || !selectedItem || !affirm || error || !publicApiKey) {
     return null
@@ -58,7 +61,7 @@ const AffirmPromoDiv: StorefrontFunctionComponent<AffirmPromoProps> = ({
     <p
       className={`affirm-as-low-as ${handles.affirmPromo}`}
       data-page-type="product"
-      data-amount={price * 100}
+      data-amount={price * selectedQty * 100}
     ></p>
   )
 }
