@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.0.8] - 2022-12-09
+
 ### Changed
 
 - Refresh Affirm UI on PDP if quantity changes
